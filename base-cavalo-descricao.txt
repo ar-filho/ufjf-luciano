@@ -1,0 +1,165 @@
+1: cirurgia
+          1 = Sim, foi operado
+          2 = Foi tratado sem cirurgia
+
+2: Idade
+	  1 = Cavalo adulto
+	  2 = Jovem (< 6 meses)
+
+3: Número do Hospital
+	  - código numérico
+	  - o número do processo atribuído ao cavalo
+		(pode não ser único se o cavalo for tratado > 1 vez)
+
+4: temperatura retal
+	  - em graus Celsius.
+	  
+5: pulso
+	  - a frequência cardíaca em batimentos por minuto
+
+6: frequência respiratória
+
+7: temperatura das extremidades
+	  - valores possíveis:
+		   1 = Normal
+		   2 = Quente
+		   3 = Frio
+		   4 = Muito Frio
+
+8: pulso periférico
+	  - os valores possíveis são:
+		   1 = normal
+		   2 = aumentado
+		   3 = reduzido
+		   4 = ausente
+
+9: membranas mucosas
+	  - os valores possíveis são:
+		   1 = rosa normal
+		   2 = rosa claro
+		   3 = rosa pálido
+		   4 = pálido cianótico
+		   5 = vermelho brilhante / injetado
+		   6 = escuro cianótico
+
+10: tempo de enchimento capilar
+	  - valores possíveis
+		   1 = < 3 segundos
+		   2 = >= 3 segundos
+
+11: dor - um julgamento subjetivo do nível de dor do cavalo
+	  - valores possíveis:
+		   1 = alerta, sem dor
+		   2 = deprimido
+		   3 = dor leve intermitente
+		   4 = dor intensa intermitente
+		   5 = dor intensa contínua
+
+12: peristaltismo
+	  - uma indicação da atividade no intestino do cavalo. 
+	  - valores possíveis:
+		   1 = hipermótil
+		   2 = normal
+		   3 = hipomotilidade
+		   4 = ausente
+
+13: distensão abdominal
+	  - valores possíveis
+		   1 = nenhum
+		   2 = leve
+		   3 = moderado
+		   4 = grave
+
+14: sonda nasogástrica
+	  - refere-se a qualquer gás que sai deste tubo
+	  - valores possíveis:
+		   1 = nenhum
+		   2 = leve
+		   3 = significativo
+
+15: refluxo nasogástrico
+	  - valores possíveis
+		   1 = nenhum
+		   2 = > 1 litro
+		   3 = < 1 litro
+
+16: refluxo nasogástrico PH
+
+17: toque retal - fezes
+	  - valores possíveis
+		   1 = normal
+		   2 = aumentado
+		   3 = diminuído
+
+18: abdômen
+	  - valores possíveis
+		   1 = normal
+		   2 = outro
+		   3 = fezes firmes no intestino grosso
+		   4 = intestino delgado distendido
+		   5 = intestino grosso distendido
+
+19: volume globular
+	  - o número de glóbulos vermelhos por volume no sangue
+
+20: proteína total
+
+21: aparência da abdominocentese
+	  - uma agulha é colocada no abdômen do cavalo e o fluido é obtido da cavidade abdominal
+	  - valores possíveis:
+		   1 = claro
+		   2 = nublado
+		   3 = serossanguinolento
+
+22: proteína total da abdocentese
+
+23: resultado
+	  - o que eventualmente aconteceu com o cavalo?
+	  - valores possíveis:
+		   1 = viveu
+		   2 = morreu
+		   3 = foi sacrificado
+
+24: lesão cirúrgica
+	  - retrospectivamente, o problema (lesão) foi cirúrgico?
+	  - valores possíveis:
+		   1 = Sim
+		   2 = Não
+
+25, 26, 27: tipo de lesão
+	  - o primeiro número é o local da lesão
+		   1 = gástrico
+		   2 = intestino delgado
+		   3 = lg cólon
+		   4 = Ig cólon e ceco
+		   5 = ceco
+		   6 = cólon transverso
+		   7 = reto/cólon descendente
+		   8 = útero
+		   9 = bexiga
+		   11 = todos os locais intestinais
+		   00 = nenhum
+	  - o segundo número é tipo
+		   1 = simples
+		   2 = estrangulamento
+		   3 = inflamação
+		   4 = outro
+	  - terceiro número é subtipo
+		   1 = mecânico
+		   2 = paralítico
+		   0 = n/a
+	  - quarto número é código específico
+		   1 = obturação
+		   2 = intrínseco
+		   3 = extrínseco
+		   4 = adinâmico
+		   5 = vólvulo/torção
+		   6 = intusão
+		   7 = tromboembólico
+		   8 = hérnia
+		   9 = lipoma/encarceramento eslénico
+		   10 = deslocamento
+		   0 = n/a
+
+
+Os valores ausentes são identificados por "?".
